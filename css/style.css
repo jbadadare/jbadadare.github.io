@@ -34,6 +34,7 @@ src: url(../fonts/Roboto-Light.ttf);
 	background-image: url(../images/banner.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background:center;
 	width: 100%;
 	height:756px;
 	position:absolute;
@@ -802,6 +803,7 @@ src: url(../fonts/Roboto-Light.ttf);
 	float: right;
     width: 565px;
 	margin-top: 40px;
+	margin-left: 75px;
 }
 .fnavbarlist ul li a
 {
@@ -822,9 +824,20 @@ src: url(../fonts/Roboto-Light.ttf);
 	margin-right:15px;
 	line-height: 45px;
 }
+.fnavbarlist a:hover, .fnavbarlist a.active
+{
+	color: #ff6600;
+}
 .rclogo
 {
 	padding-top: 35px;
+	padding-left: 30px;
+}
+.fsearch
+{
+	margin-left: 220px;
+	margin-top: 24px;
+	float: left;
 }
 .txt
 {
@@ -836,18 +849,28 @@ src: url(../fonts/Roboto-Light.ttf);
 {
 	width: 80px;
 	height: 25px;
-	background-color: ff6600;
+	background-color: #ff6600;
 	line-height: 25px;
+	border: none;
+	margin-left: -4px;
+}
+.bttn:hover
+{
+	cursor: pointer;
 }
 .social
 {
 	float: right;
-	margin-right: 85px;
+	margin-right: 225px;
 }
 .socialimg
 {
 	padding-right: 10px;
-	margin-top: 10px;
+	margin-top: 20px;
+}
+.socialimg:hover
+{
+	cursor: pointer;
 }
 #ftr
 {
@@ -857,8 +880,9 @@ src: url(../fonts/Roboto-Light.ttf);
 }
 #ftr p
 {
+	font-family: 'Roboto-Light';
 	color: #ffffff;
 	line-height: 50px;
+	font-size: 12px;
 	text-align: center;
-	opacity: 20%;
 }
