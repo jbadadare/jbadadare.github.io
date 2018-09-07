@@ -773,6 +773,7 @@ src: url(../fonts/Roboto-Light.ttf);
 .bikebg
 {
     position: absolute;
+    width: 100%;
 }
 #demo
 {
