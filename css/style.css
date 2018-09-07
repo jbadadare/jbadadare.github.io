@@ -19,7 +19,6 @@ src: url(../fonts/Roboto-Light.ttf);
 #container
 {
 	width:100%;
-	border: solid red 1px;
 }
 #header
 {
@@ -298,7 +297,7 @@ src: url(../fonts/Roboto-Light.ttf);
 	position: relative;
 	float: right;
 	margin-top: 200px;
-	margin-right: 350px;
+	margin-right: 400px;
 }
 .enginepart h3
 {
@@ -364,7 +363,7 @@ src: url(../fonts/Roboto-Light.ttf);
 	position: relative;
 	float: right;
 	margin-top: 250px;
-	margin-right: 350px;
+	margin-right: 400px;
 }
 .cylinder h3
 {
@@ -430,7 +429,7 @@ src: url(../fonts/Roboto-Light.ttf);
 	position: relative;
 	float: right;
 	margin-top: 250px;
-	margin-right: 350px;
+	margin-right: 400px;
 }
 .exaust h3
 {
@@ -655,7 +654,7 @@ src: url(../fonts/Roboto-Light.ttf);
 }
 .eventimg1
 {
-	width: 1519px;
+	width: 1600px;
 }
 .eventdetail
 {
@@ -771,10 +770,15 @@ src: url(../fonts/Roboto-Light.ttf);
 	margin-left: 350px;
 	color:#1f1f1f;
 }
+.bikebg
+{
+    position: absolute;
+}
 #demo
 {
 	width: 1000px;
 	margin: 0 auto;
+    position: relative;
 }
 #contact
 {
