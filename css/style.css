@@ -18,7 +18,8 @@ src: url(../fonts/Roboto-Light.ttf);
 }
 #container
 {
-	width:100%;
+	width:1583px;
+	margin 0 auto;
 }
 #header
 {
