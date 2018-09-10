@@ -34,13 +34,13 @@ src: url(../fonts/Roboto-Light.ttf);
 	background-image: url(../images/banner.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	width: 100%;
+	width: 1583px;
 	height:756px;
 	position:absolute;
 }
 .fixednavbar
 {
-	width:100%;
+	width:1583;
 	position: fixed;
 	z-index: 999;
 }
@@ -774,7 +774,7 @@ src: url(../fonts/Roboto-Light.ttf);
 .bikebg
 {
     position: absolute;
-    width: 100%;
+    width: 1583px;
 }
 #demo
 {
