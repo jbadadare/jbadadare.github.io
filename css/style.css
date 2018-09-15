@@ -40,7 +40,7 @@ src: url(../fonts/Roboto-Light.ttf);
 }
 .fixednavbar
 {
-	width:1583;
+	width:1583px;
 	position: fixed;
 	z-index: 999;
 }
